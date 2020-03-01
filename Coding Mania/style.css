@@ -1,0 +1,102 @@
+div{
+    width: 350px;
+    height: 406px;
+    background-color: rgba(229, 84, 0, 0.719);
+    margin-left: 500px;
+    margin-top: 190px;     
+    border-radius: 12px;   
+}
+input{
+    position: relative;
+    height: 52px;
+    width: 350px;
+    top: -18px;
+    border: none;
+    font-size: 35px;
+    font-family: cursive;
+    border-radius: 12px;
+    color: #2B4570;
+    background-color: honeydew;
+}
+input:focus{
+   background-color: rgba(247, 206, 71, 0.507);
+   outline: none;
+}
+img{
+    position: relative;
+    bottom:60px;
+    border-radius: 50%;
+    width: 350px;
+}
+#btn{
+margin-left: 630px;
+margin-top: 20px;
+width: 100px;
+height: 50px;
+background-color:white;
+color: teal;
+border-radius: 12px;
+border-color:green;
+}
+#btn1{
+margin-left: 600px;
+margin-top: 40px;
+width: 100px;
+height: 50px;
+background-color:white;
+color: teal;
+border-radius: 12px;
+border-color:green;
+}
+#btn:hover,#btn1:hover{
+background-color:green;
+color: white;
+}
+i{
+font-size: 50px;
+opacity: 0;
+}
+span{
+position: relative;
+font-size: 100px;
+}
+#btn1{
+opacity: 0;
+}
+#hl{
+width: 100px;
+height: 50px;
+background-color:white;
+color: teal;
+border-radius: 12px;
+border-color:green;
+}
+#prix{
+position: fixed;
+left: 200px;
+height: 100px;
+width: 1000px;
+text-align: center;
+}
+#f1{
+background-color: white;
+}
+::placeholder{padding: 500px;}
+#i1{
+opacity: 1;
+font-size: 22px;
+}
+.f1,#f2{
+position: fixed;
+border-radius: 12px;
+border-color: yellow;
+background-color: rgba(229, 255, 0, 0.692);
+}
+#f2:hover{
+background-color: wheat;
+color:tomato;
+}
+.f1:hover{
+background-color: wheat;
+color:tomato;
+}

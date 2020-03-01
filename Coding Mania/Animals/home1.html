@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        ff1 = 0;
+        function ad(){
+           s = document.getElementById("prix");
+           ff1 +=2;
+           z=(ff1+ff2) +"dt";
+           s.value = z;
+        }
+    </script>
+    <script> ff2 = 0;
+    function ad1(){
+        s1 = document.getElementById("prix");
+        ff2 += 5;
+        z = ff1 + ff2;
+        s1.value = z + "dt";
+    }
+    </script>
+    <button class="f1" onclick="ad()"><i id="i1" class="fa fa-plus"></i><p style="font-size: 16px;"> Charger 2dt</p></button>
+    <input type="text" placeholder="0.0dt" id="prix" disabled>
+    <button id="f2" style="margin-left: 1200px;" onclick="ad1()"><i id="i1" class="fa fa-plus"></i> <p style="font-size: 16px;">Charger 5dt</p></button>
+   <!-- <ul>
+        <li><i class="fa fa-home"></i>Home</li>
+        <li><i class="fa fa-users"></i>About</li>
+        <li><i class="fa fa-wpforms"></i>Form</li>
+        <li><i class="fa fa-comments"></i>Contact</li>
+        <li><i class="fa fa-star"></i>Speciality</li>
+        <li><i class="fa fa-sign-in"></i>Inscription</li>
+        <li><i class=""></i>Log in</li>
+    </ul>-->
+<div id="area">
+    
+       <span> <i id="sc" class="fa fa-check"></i></span>
+       <h3>gggggggggggggggggggggggggggggggg<br>
+           sgggggggggggggggggggggggggggggggg<br>
+       </h3>
+        <img src="../images/bird.jpg" id="im">
+        <input type="text" id="txt"/>
+    
+</div>
+    <button id="btn" onclick="verif()">validate</button>
+    <br>
+   <a href="home2.html"> <button id="btn1"> Next Level <i class="fa fa-forward"></i></button></a>
+    <button onclick="hlp()" id="hl">Help  (0.5dt)</button>
+    <script>
+        function verif(){
+            str = document.getElementById("txt");
+            ar = document.getElementById("area");
+            ars = document.getElementById("sc");
+            nxt = document.getElementById("btn1");
+            nx = document.getElementById("hl");
+            ima = document.getElementById("im");
+            if(str.value.toLowerCase() == "bird"){
+                ar.style.backgroundColor = "rgba(0, 128, 0, 0.418)";
+                ars.style.opacity ="1"; 
+                nxt.style.opacity = "1";
+                nx.style.opacity ="0";
+                ima.style.opacity ="1";
+            }else{
+                str.style.backgroundColor ="red";
+                ar.style.backgroundColor = "rgba(247, 206, 71, 0.507)";
+                ars.style.opacity ="0"; 
+                nxt.style.opacity = "0";
+                nx.style.opacity ="1";
+                ima.style.opacity ="0";
+            }
+        }
+    </script>
+<script>
+    var i=-1;
+    function hlp()
+    {
+        str = document.getElementById("txt");
+        hell = document.getElementById("hl");
+        var tab= new Array('b','i','r','d');
+        i++;
+        str.value += tab[i];
+    }
+</script>
+</body>
+</html>
