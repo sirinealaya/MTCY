@@ -1,0 +1,10 @@
+Dogs:
+Dogs  are domesticated mammals, not natural wild animals. 
+They were originally bred from wolves.
+ They have been bred by humans for a long time
+CAT:
+A cat is a furry animal that has a long tail and sharp claws. Cats are often kept as pets.
+BIRD:
+a bird is a warm blooded member of the Aves class, which has feathers, a beak, no teeth, wings and bears young in eggs.
+Giraffe:
+A giraffe  is a mammal which lives in Africa. Giraffes have an even number of toes and are the tallest land animals. 
